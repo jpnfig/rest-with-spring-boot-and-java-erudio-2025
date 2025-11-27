@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 80
 cors:
   originPatterns: http://localhost:8080,http://localhost:3000,https://www.erudio.com.br
 file:
@@ -19,8 +19,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: ${JDBC_URL}
     #url: jdbc:mysql://GCP_SQL_IP/rest_with_spring_boot_erudio?useTimezone=true&serverTimezone=UTC
+    #34.136.149.243
     username: root
-    password: admin123
+    password: Admin@123
   jpa:
     hibernate:
       ddl-auto: none
