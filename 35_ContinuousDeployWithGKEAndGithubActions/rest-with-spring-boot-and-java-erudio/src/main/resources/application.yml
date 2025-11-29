@@ -20,7 +20,7 @@ spring:
     url: ${JDBC_URL}
     #url: jdbc:mysql://GCP_SQL_IP/rest_with_spring_boot_erudio?useTimezone=true&serverTimezone=UTC
     username: root
-    password: admin123
+    password: Admin@123
   jpa:
     hibernate:
       ddl-auto: none
